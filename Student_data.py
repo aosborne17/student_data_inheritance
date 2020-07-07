@@ -24,7 +24,7 @@ Andrew = Student_Data("Andrew", "Osborne", 21, "British/Caribbean", 21_23_46)
 
 # Andrew.email()
 
-Andrew.change_bank_details(30_44_21)
+# Andrew.change_bank_details(30_44_21)
 
 """
 This name mangling allows you to access the private method within the class
@@ -33,7 +33,7 @@ This name mangling allows you to access the private method within the class
 # Andrew._Student_Data__change_bank_details(33_45_29)
 
 
-print(Andrew.bank_sort_code)
+# print(Andrew.bank_sort_code)
 
 # print(Andrew.bank_sort_code)
 # Andrew.change_bank_details(33_45_29)
